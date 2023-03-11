@@ -12,7 +12,7 @@ import org.springframework.beans.factory.support.GenericBeanDefinition;
  * @className: BeanDefinitionCreationDemo
  * @author: ycd20
  * @description: TODO
- * @date: 2023/2/8 19:39
+ * @date: 2023/2/8 17:39
  * @version: 1.0
  */
 public class BeanDefinitionCreationDemo {

@@ -4,7 +4,6 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import javax.annotation.PostConstruct;
 
 /**
  * {@link org.springframework.beans.factory.BeanCreationException} 示例代码
@@ -13,7 +12,7 @@ import javax.annotation.PostConstruct;
  * @className: BeanCreationExceptionDemo
  * @author: ycd20
  * @description: TODO
- * @date: 2023/2/19 9:54
+ * @date: 2023/2/17 9:54
  * @version: 1.0
  */
 public class BeanCreationExceptionDemo {
@@ -31,7 +30,6 @@ public class BeanCreationExceptionDemo {
 
     static class POJO implements InitializingBean{
 
-        @PostConstruct
         public void init() throws Throwable{
             throw new Throwable("For purpose");
         }

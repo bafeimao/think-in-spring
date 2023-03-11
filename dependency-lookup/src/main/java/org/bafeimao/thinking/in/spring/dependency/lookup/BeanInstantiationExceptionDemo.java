@@ -11,7 +11,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @className: BeanInstantiationExceptionDemo
  * @author: ycd20
  * @description: TODO
- * @date: 2023/2/19 9:51
+ * @date: 2023/2/17 9:51
  * @version: 1.0
  */
 public class BeanInstantiationExceptionDemo {

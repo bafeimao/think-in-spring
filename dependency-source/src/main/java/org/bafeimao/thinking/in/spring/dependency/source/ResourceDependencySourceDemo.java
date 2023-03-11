@@ -5,7 +5,6 @@ import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import javax.annotation.PostConstruct;
 
 /**
  * @projectName: think-in-spring
@@ -21,7 +20,6 @@ public class ResourceDependencySourceDemo {
     @Autowired
     private String value;
 
-    @PostConstruct
     public void init(){
         System.out.println(value);
     }

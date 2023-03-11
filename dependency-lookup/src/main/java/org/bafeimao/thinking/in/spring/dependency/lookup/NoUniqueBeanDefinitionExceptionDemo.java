@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
  * @className: NoUniqueBeanDefinitionExceptionDemo
  * @author: ycd20
  * @description: TODO
- * @date: 2023/2/19 9:33
+ * @date: 2023/2/17 9:33
  * @version: 1.0
  */
 public class NoUniqueBeanDefinitionExceptionDemo {

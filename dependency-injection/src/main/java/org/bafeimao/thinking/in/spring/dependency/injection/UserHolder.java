@@ -8,7 +8,7 @@ import org.bafeimao.thinking.in.spring.ioc.overview.domain.User;
  * @className: UserHolder
  * @author: ycd20
  * @description: TODO
- * @date: 2023/2/19 16:04
+ * @date: 2023/2/17 16:04
  * @version: 1.0
  */
 public class UserHolder {

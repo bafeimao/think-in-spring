@@ -8,7 +8,6 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.io.ResourceLoader;
 
-import javax.annotation.PostConstruct;
 
 /**
  * @projectName: think-in-spring
@@ -30,7 +29,7 @@ public class DependencySourceDemo {
     @Autowired
     private ApplicationEventPublisher applicationEventPublisher;
 
-    @PostConstruct
+
     public void init() {
         System.out.println("beanFactory == applicationContext " + (beanFactory == applicationContext));
         System.out.println("beanFactory == applicationContext.getBeanFactory " + (beanFactory == applicationContext.getAutowireCapableBeanFactory()));
@@ -38,7 +37,7 @@ public class DependencySourceDemo {
         System.out.println("applicationEventPublisher  == applicationContext " + (applicationEventPublisher == applicationContext));
     }
 
-    @PostConstruct
+
     public void initByLookUp() {
         getBean(BeanFactory.class);
         getBean(ApplicationContext.class);

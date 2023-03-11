@@ -8,7 +8,7 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 
-import javax.annotation.Resource;
+
 
 /**
  * @projectName: think-in-spring
@@ -16,14 +16,13 @@ import javax.annotation.Resource;
  * @className: XmlDependencySetterInjectionDemo
  * @author: ycd20
  * @description: TODO
- * @date: 2023/2/19 15:59
+ * @date: 2023/2/17 15:59
  * @version: 1.0
  */
 public class AnnotationDependencyFieldInjectionDemo {
     @Autowired // 会忽略掉静态字段
     private UserHolder userHolder;
 
-    @Resource
     private UserHolder userHolder2;
 
     public static void main(String[] args) {

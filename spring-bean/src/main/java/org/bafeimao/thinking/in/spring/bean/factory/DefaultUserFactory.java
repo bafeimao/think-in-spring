@@ -3,8 +3,6 @@ package org.bafeimao.thinking.in.spring.bean.factory;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
 
 /**
  * @projectName: think-in-spring
@@ -17,7 +15,7 @@ import javax.annotation.PreDestroy;
  */
 public class DefaultUserFactory implements UserFactory, InitializingBean, DisposableBean {
 
-    @PostConstruct
+
     public void init() {
         System.out.println("@PostConstruct UserFactory initlization...");
     }
@@ -31,7 +29,7 @@ public class DefaultUserFactory implements UserFactory, InitializingBean, Dispos
         System.out.println("自定义afterProperties初始化方法");
     }
 
-    @PreDestroy
+
     public void preDestroy() {
         System.out.println("@preDestroy User Factory 销毁中");
     }

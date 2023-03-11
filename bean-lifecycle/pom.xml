@@ -12,17 +12,30 @@
     <artifactId>bean-lifecycle</artifactId>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>${groupId}</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>ioc-container-overview</artifactId>
-            <version>${version}</version>
+            <version>${project.version}</version>
             <scope>compile</scope>
+        </dependency>
+        <!--  https://mvnrepository.com/artifact/ca.uhn.hapi.wso2/hapi  -->
+        <dependency>
+            <groupId>ca.uhn.hapi</groupId>
+            <artifactId>hapi-base</artifactId>
+            <version>2.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/ca.uhn.hapi/hapi-structures-v26 -->
+        <dependency>
+            <groupId>ca.uhn.hapi</groupId>
+            <artifactId>hapi-structures-v26</artifactId>
+            <version>2.3</version>
         </dependency>
     </dependencies>
 

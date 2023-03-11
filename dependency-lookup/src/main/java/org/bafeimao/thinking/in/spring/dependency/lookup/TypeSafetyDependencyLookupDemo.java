@@ -13,7 +13,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @className: TypeSafetyDependencyLookupDemo
  * @author: ycd20
  * @description: TODO
- * @date: 2023/2/19 8:31
+ * @date: 2023/2/17 8:31
  * @version: 1.0
  */
 public class TypeSafetyDependencyLookupDemo {

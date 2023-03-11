@@ -9,7 +9,7 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
  * @className: AutoWiringByNameDependencySetterInjectionDemo
  * @author: ycd20
  * @description: AwtoWiring 依赖 constructor方法注入示例
- * @date: 2023/2/19 16:29
+ * @date: 2023/2/17 16:29
  * @version: 1.0
  */
 public class AutoWiringConstructorDependencySetterInjectionDemo {

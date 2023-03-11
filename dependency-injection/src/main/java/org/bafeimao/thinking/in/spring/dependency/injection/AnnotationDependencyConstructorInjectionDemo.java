@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
  * @className: XmlDependencySetterInjectionDemo
  * @author: ycd20
  * @description: TODO
- * @date: 2023/2/19 15:59
+ * @date: 2023/2/17 15:59
  * @version: 1.0
  */
 public class AnnotationDependencyConstructorInjectionDemo {
